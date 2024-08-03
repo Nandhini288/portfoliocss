@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+
+.container{
+    background-color: pink;
+    border: 3px violet solid;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    margin: 30px;
+}
+
+.container__title{
+    text-align: center;
+}
+
+.border-bottom{
+    border-bottom: 3px purple solid;
+    width: 65%;
+    margin-left: 130px;
+    margin-top: 1px;
+}
+.img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-card{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin: 10px;
+    border: solid black 3px;
+}
+.img-card img{
+    width: 100%;
+}
+
+
+
